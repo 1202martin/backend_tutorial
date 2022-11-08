@@ -1,0 +1,14 @@
+What is JavaScript?:
+    One of the most popular && widespread programming language used in the world rn.
+
+What can you do with it?:
+    Traditionally used in browsers to build interactive webpages; but no longer so - can be used to build web / mobile apps, real time networking apps, command-line tools, or games.
+
+Where does JavaScript code run?:
+    Originally only on browsers, where JS Engines reside. In 2009, ryan doll took the JS Engine && embedded it in C++ program called Node (includes Google Chrome's v8 js engine) 
+    - JS Code can now be run outside browsers.
+
+JavaScript vs ECMAScript:
+    ECMAScript : specification
+    JavaScript : Programming Language
+    
