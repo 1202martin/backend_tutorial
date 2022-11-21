@@ -1,0 +1,55 @@
+Dynamic Typing
+- Static Language:
+    Type of a variable is predetermined before runtime
+- Dynamic Language:
+    Type of variable can be changed after run-time; it's determined depending on the situation after runtime
+    ** in JS, numbers are type "number"; they don't have things like int, float, double, or what not
+
+Obj's in JS
+- Reference Types:
+    Objects:
+        Element composed of multiple properties, just like objects in other languages
+        e.g.)
+            #instead of 
+                let name = 'Martin';
+                let age = 30;
+            
+            #you can do the following
+                let person = {
+                    name:'Martin',
+                    age:30
+                };
+            #Kinda like what you'd do in Python
+
+            #How do you access the variables of the object?
+            #Look below
+            
+            # 1.Dot Notation                # shorter && concise; usually is the default go-to.
+            person.name = 'John';
+
+            # 2.Brakcet Notation            # it's not always the case where the property name (like 'name' for person obj) is always a constant.
+            person['name'] = 'Mark';        # this is where bracket notation comes in- it can be used  to identify properties whose names weren't defined prior to runtime && refer to the property accordingly.
+
+    Arrray:
+        #Basically the same thing as is in other languages; most similar to arrays in Java I guess.
+        e.g.)
+            let selectedColors = ['red','blue'];
+
+            #adding to array
+            selectedColors[2] = 'green';    # selectedColors now holds ['red','blue','green']
+
+            #arrays in JS can hold elements of different data types like in Python
+            selectedColors[3] = 2;          # selectedColors now holds ['red','blue','green',2]
+
+            #Technically arrays are obj.same
+            typeof selectedColors           # will result in "object"; kind of think of these as lists in Python
+
+    Function:
+        #Building blocks in JS; same thing as is in Python
+            function greet() {
+                console.log('Hello World');
+
+            }                               # functions don't need semicolons in the end.
+
+            greet():                        # calling the function is a statement, so that needs a semicolons
+            
