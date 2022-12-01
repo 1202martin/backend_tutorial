@@ -1,0 +1,6 @@
+Functions in Javascript
+- basically the same thing as functions in python
+- when declared, performs a set of statements to either do a job or calculate a value
+	# kinda important though; a function is better off when it only performs one atomic task.
+- takes parameters
+- There are various functions, like those that actually just performs a set of tasks or those that return values.
