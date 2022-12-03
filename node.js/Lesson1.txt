@@ -1,0 +1,13 @@
+*NodeJS : Open source, X-Platform runtime-envrionment for javascript outside browsers
+	-Often used to script Backend-services like Application Programming Interfaces
+
+1. Architecture
+	-Essentially, Node is composed of the V8 Engine && a few additional C++ S/W to run JS outside of a browser; this allows for access to resources
+	 like the File System, Ports, Network resources, and etc.
+	* Node != Programming Language
+	  Node != Framework (like django)
+2. How Node Works
+	-Asynchronous(Non-Blocking) nature; resources that take requests from different components of the S/W work "asynchronously" from the actual
+	 servers, increasing the efficiency in how H/W resources are handled.
+	-Recommended for Data-Intensive applications that make a lot of use for I/O or Network resources; not much so for those that have high CPU
+	 usage.
