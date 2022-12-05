@@ -1,0 +1,12 @@
+Modules
+
+    To prevent redundancy in declaration variables which are applied natively to global scope, MODULARITY is required.
+    - kinda like using local variables in Java
+
+    *Modules: Small building blocks that contain functions and variables that are only effective within the boundaries
+              of the module.
+        - Core Concept of Node.js
+        - e/ .js files are considered Modules, and the functions and variables that belong in that file are thought to be
+          private functions and variables.
+        - every Node.js application has at least 1 module (.js file) called "Main Module"
+        
