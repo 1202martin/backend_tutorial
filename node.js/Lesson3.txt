@@ -1,0 +1,2 @@
+*Module Wrapper Function: Syntactic function that "wraps" around an entire module in node.js
+    -how it looks on run-time : (function(exports, require, module, __filename, __dirname)){...}
